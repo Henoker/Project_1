@@ -1,0 +1,22 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Search results
+{% endblock %}
+
+
+{% block body %}
+<h1>Search Results</h1>
+<ul class="no-bullet">
+    <li style="color:gray">Displaying results for "{{ value|safe }}"</li>
+    <br>
+
+        
+    {% for entry in entries %}
+        <a href="/wiki/{{ entry }}">
+            <li>{{ entry }}</li></a>
+    {% empty %}
+        <li>No results</li>
+    {% endfor %}
+</ul>
+{%  endblock %}

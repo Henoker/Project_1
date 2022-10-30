@@ -1,0 +1,16 @@
+{% extends 'encyclopedia/layout.html' %}
+
+{% block title %}
+    Encyclopedia
+{% endblock %}
+
+{% block body %}
+	<label class="h1">Sorry, the page already exist</label>
+	<div>
+	
+            {{ entryTitle|safe }}
+            {{entry|safe}}
+	</div>
+   
+	
+{% endblock %}
