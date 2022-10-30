@@ -48,4 +48,4 @@ Distributed under the [MIT](https://github.com/Henoker/bookstore/blob/master/LIC
 
 ## Love my effort?
 
-<a href='https://www.linkedin.com/in/henock-beyene-tesfatsion-921ba54b/' target='_blank'><img height='35' style='border:0px;height:34px;' src='static/images/download.jpg' border='0' alt='Hire me at LinkediN' />
+<a href='https://www.linkedin.com/in/henock-beyene-tesfatsion-921ba54b/' target='_blank'><img height='35' style='border:0px;height:34px;' src='wiki/images/download.jpg' border='0' alt='Hire me at LinkediN' />
